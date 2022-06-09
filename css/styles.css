@@ -492,9 +492,7 @@ margin-left: 30px;
     margin-top: 9px;
 }
 
-.footer-contact {
-    margin-top: 9px;
-}
+
 .footer .container{
     display: flex;
     align-items: baseline;
@@ -522,6 +520,9 @@ margin-left: 30px;
     width: 44px;
     height: 44px;
     margin-left: 10px;
+}
+.footer-soc-item:first-child {
+    margin-left: 0;
 }
 
 .footer-soc-link {
@@ -622,10 +623,12 @@ margin-left: 30px;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
 }
+    .portfolio-link{
+        display: block;
+    }
 
-
-    .portfolio-item:hover {
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.12),
+    .portfolio-link:hover, .portfolio-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
     }
